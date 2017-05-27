@@ -14,13 +14,13 @@ final class Routes: RouteCollection {
         
         // response to requests to /info domain
         // with a description of the request
-        builder.get("info") { req in
-            return req.description
-        }
-
-       builder.get("*") { req in return req.description }
-        
-        try builder.resource("posts", PostController.self)
+//        builder.get("info") { req in
+//            return req.description
+//        }
+//
+//       builder.get("*") { req in return req.description }
+//        
+//        try builder.resource("posts", PostController.self)
     }
 }
 
